@@ -1,0 +1,56 @@
+body{margin: 0px auto; padding: 50px; background: grey;}
+#page{background: white;
+     width: 960px;
+     margin: 0px auto;
+     height: 1200px;
+     padding: 20px;
+     box-shadow: 10px 10px 10px black;
+     border: 1px solid black;
+     border-radius: 10px 10px 10px 10px;
+    }
+
+#top{padding: 20px; background: rgb(34, 212, 34);
+    border-radius: 10px 10px 10px 10px;
+    }
+#top a{color: white;}
+#bottom{text-align: center; padding: 20px;}
+a{text-decoration: none; font-size: 20px; color:rgb(0, 0, 0); padding: 5px;}
+a:hover{text-decoration:underline; color:white;}
+.subject{text-align: center;}
+#divSearch{width: 900px;
+         border: 2px solid rgb(34, 212, 34);
+         padding: 5px;
+         margin: 0px auto;
+         margin-bottom: 10px;        
+         padding: 10px;}
+table{width:900px;
+    border: 2px solid black;
+    border-collapse:collapse; color: black; margin: 0px auto;
+    padding: 10px;}
+td{border:1px solid black; padding:5px;}
+.title{text-align:center; background: rgb(34, 212, 34); color:white;}
+.row:hover{background:gray; color:white;}
+#divPage{width: 700px;text-align: center; margin: 0px auto;}
+
+#darken-background {
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    height:100%;
+    display:none;
+    background:rgba(0, 0, 0, 0.5);
+    z-index:10000;
+    overflow-y:scroll;
+}
+#lightbox {
+    width:700px;
+    margin:20px auto;
+    margin-top: 200px;
+    padding:15px;
+    border: 1px solid #333333;
+    border-radius:5px;
+    background:white;
+    box-shadow:0px 5px 5px rgba(34, 25, 25, 0.4);
+    text-align:center;
+}
